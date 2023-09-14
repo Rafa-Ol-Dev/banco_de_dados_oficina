@@ -1,7 +1,7 @@
--- Criação do Banco de Dados
+-- CriaÃ§Ã£o do Banco de Dados
 CREATE DATABASE oficina;
 
--- Utilização do Banco de Dados
+-- UtilizaÃ§Ã£o do Banco de Dados
 USE oficina;
 
 -- Tabela Cliente

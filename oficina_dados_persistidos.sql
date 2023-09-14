@@ -2,27 +2,47 @@
 INSERT INTO cliente (Nome, CPF, Telefone, Email, Endereco, Cidade, Estado, CEP)
 VALUES
     ('João da Silva', '12345678901', '1122334455', 'joao@example.com', 'Rua A, 123', 'São Paulo', 'SP', '12345678'),
+
     ('Maria Souza', '98765432109', '5544332211', 'maria@example.com', 'Av. B, 456', 'Rio de Janeiro', 'RJ', '87654321'),
+
     ('Carlos Santos', '23456789012', '1199888777', 'carlos@example.com', 'Rua X, 567', 'São Paulo', 'SP', '23456789'),
+
     ('Ana Oliveira', '34567890123', '1133221122', 'ana@example.com', 'Av. Y, 890', 'Rio de Janeiro', 'RJ', '98765432'),
+
     ('Pedro Silva', '45678901234', '1155667788', 'pedro@example.com', 'Rua Z, 123', 'Belo Horizonte', 'MG', '34567890'),
+
     ('Sandra Souza', '56789012345', '1177889900', 'sandra@example.com', 'Rua W, 789', 'Porto Alegre', 'RS', '56789012'),
+
     ('Luiz Pereira', '67890123456', '1122334455', 'luiz@example.com', 'Av. K, 456', 'Salvador', 'BA', '67890123'),
+
     ('Fernanda Rodrigues', '78901234567', '1133445566', 'fernanda@example.com', 'Rua Q, 890', 'Fortaleza', 'CE', '78901234'),
+
     ('Ricardo Alves', '89012345678', '1166778899', 'ricardo@example.com', 'Av. M, 123', 'Recife', 'PE', '89012345'),
+
     ('Amanda Santos', '90123456789', '1144556677', 'amanda@example.com', 'Rua L, 456', 'Curitiba', 'PR', '90123456'),
+
     ('Juliana Lima', '01234567890', '1133665544', 'juliana@example.com', 'Av. N, 789', 'Manaus', 'AM', '01234567'),
+
     ('Marcos Oliveira', '10987654321', '1122446688', 'marcos@example.com', 'Rua P, 123', 'Natal', 'RN', '10987654'),
-    ('Roberto Pereira', '12345678901', '1199888766', 'roberto@example.com', 'Av. U, 456', 'Maceió', 'AL', '12345678'),
-    ('Carolina Almeida', '98765432109', '5544332266', 'carolina@example.com', 'Rua R, 456', 'João Pessoa', 'PB', '87654321'),
-    ('Eduardo Santos', '23456789012', '1199888766', 'eduardo@example.com', 'Av. T, 123', 'Aracaju', 'SE', '23456789'),
-    ('Simone Lima', '34567890123', '1133222244', 'simone@example.com', 'Rua V, 890', 'Teresina', 'PI', '98765432'),
-    ('Gustavo Alves', '45678901234', '1155666677', 'gustavo@example.com', 'Av. W, 456', 'Cuiabá', 'MT', '34567890'),
-    ('Larissa Silva', '56789012345', '1177888777', 'larissa@example.com', 'Rua D, 123', 'Campo Grande', 'MS', '56789012'),
-    ('Renato Rodrigues', '67890123456', '1122332222', 'renato@example.com', 'Av. F, 456', 'Belém', 'PA', '67890123'),
-    ('Silvia Pereira', '78901234567', '1133444444', 'silvia@example.com', 'Rua G, 890', 'Vitória', 'ES', '78901234'),
-    ('José Lima', '90123456789', '1144555555', 'jose@example.com', 'Av. J, 123', 'Porto Velho', 'RO', '01234567'),
-    ('Mariana Almeida', '10987654321', '1122444444', 'mariana@example.com', 'Rua H, 456', 'Palmas', 'TO', '10987654');
+
+    ('Roberto Pereira', '12345678903', '1199888766', 'roberto@example.com', 'Av. U, 456', 'Maceió', 'AL', '12345678'),
+
+    ('Carolina Almeida', '98765432107', '5544332266', 'carolina@example.com', 'Rua R, 456', 'João Pessoa', 'PB', '87654321'),
+
+    ('Eduardo Santos', '23456789014', '1199888766', 'eduardo@example.com', 'Av. T, 123', 'Aracaju', 'SE', '23456789'),
+
+    ('Simone Lima', '34567890125', '1133222244', 'simone@example.com', 'Rua V, 890', 'Teresina', 'PI', '98765432'),
+
+    ('Gustavo Alves', '45678901236', '1155666677', 'gustavo@example.com', 'Av. W, 456', 'Cuiabá', 'MT', '34567890'),
+
+    ('Larissa Silva', '56789012347', '1177888777', 'larissa@example.com', 'Rua D, 123', 'Campo Grande', 'MS', '56789012'),
+    ('Renato Rodrigues', '67890123458', '1122332222', 'renato@example.com', 'Av. F, 456', 'Belém', 'PA', '67890123'),
+
+    ('Silvia Pereira', '78901234569', '1133444444', 'silvia@example.com', 'Rua G, 890', 'Vitória', 'ES', '78901234'),
+
+    ('José Lima', '90123456787', '1144555555', 'jose@example.com', 'Av. J, 123', 'Porto Velho', 'RO', '01234567'),
+
+    ('Mariana Almeida', '10987654323', '1122444444', 'mariana@example.com', 'Rua H, 456', 'Palmas', 'TO', '10987654')
 
 -- Inserção de Dados na Tabela Veiculo
 INSERT INTO veiculo (Placa, Modelo, Ano, idCliente)
